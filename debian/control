@@ -1,0 +1,12 @@
+Source: ros-indigo-libqt-opengl-dev
+Section: misc
+Priority: extra
+Maintainer: Matthew Bries <mbries@swri.org>
+Build-Depends: debhelper (>= 9.0.0), libqt4-opengl-dev, ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-libqt-opengl-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-opengl-dev
+Description: libqt-opengl metapackage supporting qt4 and qt5
