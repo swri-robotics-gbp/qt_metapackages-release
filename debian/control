@@ -1,0 +1,12 @@
+Source: ros-indigo-libqt-svg-dev
+Section: misc
+Priority: extra
+Maintainer: Matthew Bries <mbries@swri.org>
+Build-Depends: debhelper (>= 9.0.0), libqt4-dev, ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-libqt-svg-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-dev
+Description: libqt-svg-dev metapackage supporting qt4 and qt5
