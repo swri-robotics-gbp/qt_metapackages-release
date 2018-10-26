@@ -1,0 +1,12 @@
+Source: ros-kinetic-qt-qmake
+Section: misc
+Priority: extra
+Maintainer: Matthew Bries <mbries@swri.org>
+Build-Depends: debhelper (>= 9.0.0), qt5-qmake, ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-qt-qmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qt5-qmake
+Description: qt*-qmake metapackage supporting qt4 and qt5
