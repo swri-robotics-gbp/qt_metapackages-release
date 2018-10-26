@@ -1,0 +1,12 @@
+Source: ros-melodic-libqt-dev
+Section: misc
+Priority: extra
+Maintainer: Matthew Bries <mbries@swri.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-libqt-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qtbase5-dev
+Description: libqt-dev metapackage supporting qt4 and qt5
