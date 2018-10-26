@@ -1,0 +1,15 @@
+ros-lunar-libqt-dev (1.0.1-0xenial) xenial; urgency=high
+
+
+
+ -- Matthew Bries <mbries@swri.org>  Fri, 26 Oct 2018 05:00:00 -0000
+
+ros-lunar-libqt-dev (1.0.0-0xenial) xenial; urgency=high
+
+  * Setup for Qt5
+  * Initial ROS indigo set of each package
+  * Contributors: Matthew Bries
+
+ -- Matthew Bries <mbries@swri.org>  Fri, 26 Oct 2018 05:00:00 -0000
+
+
