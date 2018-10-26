@@ -1,0 +1,12 @@
+Source: ros-lunar-libqt-network
+Section: misc
+Priority: extra
+Maintainer: Matthew Bries <mbries@swri.org>
+Build-Depends: debhelper (>= 9.0.0), libqt5network5, ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-libqt-network
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5network5
+Description: libqt-network metapackage supporting qt4 and qt5
