@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <package format="2">
   <name>libqt_gui</name>
-  <version>0.0.2</version>
+  <version>1.0.1</version>
   <description>
 
      libqt-gui metapackage supporting qt4 and qt5
@@ -12,8 +12,8 @@
   <license>SwRI Proprietary</license>
   <buildtool_depend>catkin</buildtool_depend>
 
-  <depend>libqtgui4</depend>
-  <!-- <depend>libqt5-gui</depend> -->
+  <!-- <depend>libqtgui4</depend> -->
+  <depend>libqt5-gui</depend>
 
   <export>
   </export>
