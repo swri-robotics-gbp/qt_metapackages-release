@@ -1,0 +1,12 @@
+Source: ros-lunar-libqt-widgets
+Section: misc
+Priority: extra
+Maintainer: Matthew Bries <mbries@swri.org>
+Build-Depends: debhelper (>= 9.0.0), libqt5widgets5, ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-libqt-widgets
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5widgets5
+Description: libqt-widgets metapackage supporting qt4 and qt5
