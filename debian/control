@@ -1,0 +1,12 @@
+Source: ros-indigo-libqt-gui
+Section: misc
+Priority: extra
+Maintainer: Matthew Bries <mbries@swri.org>
+Build-Depends: debhelper (>= 9.0.0), libqtgui4, ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-libqt-gui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqtgui4
+Description: libqt-gui metapackage supporting qt4 and qt5
