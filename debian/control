@@ -1,0 +1,12 @@
+Source: ros-lunar-libqt-opengl
+Section: misc
+Priority: extra
+Maintainer: Matthew Bries <mbries@swri.org>
+Build-Depends: debhelper (>= 9.0.0), libqt5opengl5, ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-libqt-opengl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5opengl5
+Description: libqt-opengl metapackage supporting qt4 and qt5
